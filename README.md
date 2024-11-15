@@ -8,12 +8,15 @@ Tworzą się nowe pliki:
 # Instrukcja uruchomienia:
 
 W tym projekcie klucz API przechowywany jest jako zmienna środowiskowa na komputerze lokalnym. Więc przed uruchomieniem programu nalezy go ustawić:
+
 W systemie Linux/Mac:
 ```bash
 export OPENAI_API_KEY="twój_klucz_api"
 ```
-```bash
+
 W systemie Windows(PowerShell):
+```bash
 $env:OPENAI_API_KEY="twój_klucz_api" 
 ```
-Nalezy skompilować plik main.py
+
+Teraz, zeby uruchomić aplikację nalezy skompilować plik main.py
