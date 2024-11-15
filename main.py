@@ -1,7 +1,8 @@
 import openai
+import os
 
-# Ustaw swój klucz API
-openai.api_key = "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"
+# Pobierz klucz API z systemu
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generuj_html_dla_artykulu(tresc_artykulu):
     prompt = f"""

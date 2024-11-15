@@ -1,14 +1,19 @@
-## Opis zadania
+# Opis działania aplikacji:
 
-# Twoim zadaniem jest stworzenie prostej aplikacji w Pythonie lub JavaScript (do wyboru), która:
-### 1. Łączy się z API OpenAI;
-### 2. Odczytuje plik tekstowy z artykułem – tu znajdziesz plik do pobrania;
-### 3. Treść artykułu wraz z promptem przekazuje do OpenAI w celu obróbki (opisane poniżej);
-### 4. Zapisuje otrzymany od OpenAI kod w pliku artykul.html.
-   
-Kod artykułu wygenerowany przez AI powinien spełniać następujące wytyczne:
-• Użycie odpowiednich tagów HTML do strukturyzacji treści.
-• Określenie wspólnie z AI miejsc, gdzie warto wstawić grafiki – oznaczamy je z użyciem tagu img z atrybutem src="image_placeholder.jpg". Dodaj atrybut alt do każdego obrazka z dokładnym promptem, który możemy użyć do wygenerowania grafiki. Umieść podpisy pod grafikami używając odpowiedniego tagu HTML.
-• Brak kodu CSS ani JavaScript. Zwrócony kod powinien zawierać wyłącznie zawartość do wstawienia pomiędzy tagami body i /body. Nie dołączaj znaczników html, head ani body.
+Tworzą się nowe pliki: 
+- artykul.html - sformatowany plik tekstowy artykulu gotowy do wklejenia do szablonu html
+- szablon.html - szablon strony html z miejscem zeby wkleić plik artykul.html
+- podglad.html - gotowy do podglądu artykuł
 
-Wygenerowany kod HTML zapisz w pliku artykul.html – naturalnie nie będzie on walidowalny bez nagłówków HTML czy sekcji head, ale to nie szkodzi.
+# Instrukcja uruchomienia:
+
+W tym projekcie klucz API przechowywany jest jako zmienna środowiskowa na komputerze lokalnym. Więc przed uruchomieniem programu nalezy go ustawić:
+W systemie Linux/Mac:
+```bash
+export OPENAI_API_KEY="twój_klucz_api"
+```
+```bash
+W systemie Windows(PowerShell):
+$env:OPENAI_API_KEY="twój_klucz_api" 
+```
+Nalezy skompilować plik main.py
