@@ -8,7 +8,7 @@
    
 Kod artykułu wygenerowany przez AI powinien spełniać następujące wytyczne:
 • Użycie odpowiednich tagów HTML do strukturyzacji treści.
-• Określenie wspólnie z AI miejsc, gdzie warto wstawić grafiki – oznaczamy je z użyciem tagu <img> z atrybutem src="image_placeholder.jpg". Dodaj atrybut alt do każdego obrazka z dokładnym promptem, który możemy użyć do wygenerowania grafiki. Umieść podpisy pod grafikami używając odpowiedniego tagu HTML.
+• Określenie wspólnie z AI miejsc, gdzie warto wstawić grafiki – oznaczamy je z użyciem tagu img z atrybutem src="image_placeholder.jpg". Dodaj atrybut alt do każdego obrazka z dokładnym promptem, który możemy użyć do wygenerowania grafiki. Umieść podpisy pod grafikami używając odpowiedniego tagu HTML.
 • Brak kodu CSS ani JavaScript. Zwrócony kod powinien zawierać wyłącznie zawartość do wstawienia pomiędzy tagami body i /body. Nie dołączaj znaczników html, head ani body.
 
 Wygenerowany kod HTML zapisz w pliku artykul.html – naturalnie nie będzie on walidowalny bez nagłówków HTML czy sekcji head, ale to nie szkodzi.
